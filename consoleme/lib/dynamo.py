@@ -4,6 +4,7 @@ import time
 import uuid
 import zlib
 from datetime import datetime
+
 # used as a placeholder for empty SID to work around this:
 # https://github.com/aws/aws-sdk-js/issues/833
 from decimal import Decimal
