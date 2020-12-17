@@ -733,9 +733,8 @@ def populate_caches(
 
     from consoleme.celery import celery_tasks as celery
     from consoleme.lib.account_indexers import get_account_id_to_name_mapping
-    from consoleme_default_plugins.plugins.celery_tasks import (
-        celery_tasks as default_celery_tasks,
-    )
+    from consoleme_default_plugins.plugins.celery_tasks import \
+        celery_tasks as default_celery_tasks
 
     celery.cache_cloud_account_mapping()
     accounts_d = async_to_sync(get_account_id_to_name_mapping)()
