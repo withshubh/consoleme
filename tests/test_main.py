@@ -7,6 +7,7 @@ import sys
 import mock
 from mock import Mock, patch
 from tornado.httpclient import AsyncHTTPClient
+
 # from tornado.options import options
 from tornado.testing import AsyncHTTPTestCase
 
