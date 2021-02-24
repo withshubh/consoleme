@@ -12,7 +12,6 @@ import tornado.httpclient
 import tornado.httputil
 import tornado.web
 import ujson as json
-from tornado import httputil
 
 from consoleme.config import config
 from consoleme.exceptions.exceptions import (
