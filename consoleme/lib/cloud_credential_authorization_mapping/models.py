@@ -5,7 +5,7 @@ from pydantic import BaseModel
 user_or_group = str
 
 
-class CredentialAuthzMappingGenerator(object):
+class CredentialAuthzMappingGenerator():
     """This is a class that should be inherited for generating Cloud Credential Authorization mappings"""
 
     async def generate_credential_authorization_mapping(

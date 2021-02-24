@@ -21,7 +21,7 @@ PROD_STATS = config.get("webpack.loader.prod_stats", "webpack-stats.prod.json")
 BUNDLE_DIR_NAME = config.get("webpack.loader.bundle_dir", "bundles/")
 
 
-class WebpackLoader(object):
+class WebpackLoader():
     _assets = {}
 
     def __init__(self, name, config):

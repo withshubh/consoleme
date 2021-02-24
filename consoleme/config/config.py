@@ -50,7 +50,7 @@ def refresh_dynamic_config(ddb=None):
     return ddb.get_dynamic_config_dict()
 
 
-class Configuration(object):
+class Configuration():
     """Load YAML configuration files. YAML files can be extended to extend each other, to include common configuration
     values."""
 
